@@ -1,0 +1,12 @@
+
+# activate virtual env
+# windows:
+venv\Scripts\activate
+
+then 'deactivate' to stop
+
+# mac / linux:
+source venv/bin/activate
+
+# install module/package
+py -m pip install <package>
