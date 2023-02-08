@@ -22,9 +22,7 @@ def contact_me():
 
 
 
-#########################################################
 ################### APT -> JSON #########################
-#########################################################
 
 
 
@@ -38,6 +36,6 @@ def dev_address():
     address = me["address"]
     # return address["street"] + " #" + str(address["number"]) + ", " + address["city"] + ", " + address["zipcode"]
     return f'{address["street"]}, #{address["number"]}, {address["city"]}, {address["zipcode"]}'
-    
+
 
 app.run(debug=True)
