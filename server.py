@@ -21,9 +21,7 @@ def contact_me():
     return "saseaa37@gmail.com"
 
 
-
 ################### API --> JSON #########################
-
 
 
 @app.get("/api/developer")
@@ -36,7 +34,6 @@ def dev_address():
     address = me["address"]
     # return address["street"] + " #" + str(address["number"]) + ", " + address["city"] + ", " + address["zipcode"]
     return f'{address["street"]}, #{address["number"]}, {address["city"]}, {address["zipcode"]}'
-
 
 
 @app.get("/api/catalog")
@@ -84,12 +81,10 @@ def get_categories():
     results = []
     for prod in mock_catalog:
         cat = prod["category"]
-        if prod["cat"] = cat:
+        if cat in prod:
             results.append(prod)
 
-
-    return json.dumps(results)
-    
-
+    return json.dumps(results) 
+ 
 
 app.run(debug=True)
