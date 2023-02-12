@@ -11,7 +11,6 @@ me = {
     }
 }
 
-
 mock_catalog = [
     {
         "title": "Faguma Mens Sports - Mirror",
