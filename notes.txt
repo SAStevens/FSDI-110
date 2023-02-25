@@ -35,3 +35,13 @@ git push -u origin master (or main)
 git add .
 git commit -m "ANY MESSAGE"
 git push
+
+
+# From Github - Create a new repo on the command line
+echo "# FSDI-110" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/SAStevens/FSDI-110.git
+git push -u origin main
