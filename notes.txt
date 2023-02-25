@@ -37,11 +37,6 @@ git commit -m "ANY MESSAGE"
 git push
 
 
-# From Github - Create a new repo on the command line
-echo "# FSDI-110" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/SAStevens/FSDI-110.git
-git push -u origin main
+# From Github - To set a new repo as recipient 
+
+git remote set-url origin {your-new-url}
