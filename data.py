@@ -124,12 +124,60 @@ mock_catalog = [
         "_id": "pn14"
     },
 
+        {
+        "title": "Oakley Crankshaft - Black/Jade",
+        "category": "Unisex",
+        "price": 75.99,
+        "image": "Oakley_Crankshaft_Unisex_Black-Jade_75.99.JPG",
+        "_id": "pn15"
+    },
+
+    {
+        "title": "Oakley Whiskey Prism",
+        "category": "Unisex",
+        "price": 92.07,
+        "image": "Oakley_Whiskey_Prism_Unisex_92.07.JPG",
+        "_id": "pn16"
+    },
+
+    {
+        "title": "Oakley Batwolf",
+        "category": "Mens",
+        "price": 86.50,
+        "image": "Oakley_Batwolf_Mens_86.50.JPG",
+        "_id": "pn17"
+    },
+
+    {
+        "title": "Oakley Contrail Pilot",
+        "category": "Mens",
+        "price": 159.79,
+        "image": "Oakley_Contrail-Pilot_Mens_159.79.JPG",
+        "_id": "pn18"
+    },
+
+    {
+        "title": "Oakley Flak 2.0",
+        "category": "Mens",
+        "price": 98.99,
+        "image": "Oakley_Flak-2.0_Mens_XL_98.99.JPG",
+        "_id": "pn19"
+    },
+
+    {
+        "title": "Oakley Holbrook",
+        "category": "Mens",
+        "price": 128.68,
+        "image": "Oakley_Holbrook_Mens_128.68.JPG",
+        "_id": "pn20"
+    },
+
     {
         "title": "Sojos Classic Aviators",
         "category": "Unisex",
         "price": 12.74,
         "image": "Sojos_Classic_Aviator_12-74.JPG",
-        "_id": "pn15"
+        "_id": "pn21"
     },
 
     {
@@ -137,7 +185,7 @@ mock_catalog = [
         "category": "Unisex",
         "price": 15.99,
         "image": "Sojos_Large_Classic_Round_Retro_Vintage_15-99.JPG",
-        "_id": "pn16"
+        "_id": "pn22"
     },
 
     {
@@ -145,7 +193,7 @@ mock_catalog = [
         "category": "Unisex",
         "price": 14.99,
         "image": "Sojos_Oversized_Fashion_Round_Vintage_14-99.JPG",
-        "_id": "pn17"
+        "_id": "pn23"
     },
 
     {
@@ -153,7 +201,7 @@ mock_catalog = [
         "category": "Womens",
         "price": 16.99,
         "image": "Sojos_Retro_Hexagon_Women_14-99.JPG",
-        "_id": "pn18"
+        "_id": "pn24"
     },
 
     {
@@ -161,7 +209,7 @@ mock_catalog = [
         "category": "Unisex",
         "price": 14.99,
         "image": "Sojos_Retro_Square_Aviator_14-99.JPG",
-        "_id": "pn19"
+        "_id": "pn25"
     },
 
     {
@@ -169,7 +217,7 @@ mock_catalog = [
         "category": "Womens",
         "price": 14.99,
         "image": "Sojos_Small_Round_Classic_14-99.JPG",
-        "_id": "pn20"
+        "_id": "pn26"
     },
     
     {
@@ -177,7 +225,7 @@ mock_catalog = [
         "category": "Unisex",
         "price": 15.99,
         "image": "Sojos_Small_Round_Vintage_14-99.JPG",
-        "_id": "pn21"
+        "_id": "pn27"
     },
 
     {
@@ -185,7 +233,7 @@ mock_catalog = [
         "category": "Womens",
         "price": 16.99,
         "image": "Sojos_Small_Square_Polygonal_Mirrored_15-99.jpg",
-        "_id": "pn22"
+        "_id": "pn28"
     },
 
     {
@@ -193,7 +241,7 @@ mock_catalog = [
         "category": "Unisex",
         "price": 25.04,
         "image": "Suncloud_Bayshore_25-04.JPG",
-        "_id": "pn23"
+        "_id": "pn29"
     },
 
     {
@@ -201,7 +249,6 @@ mock_catalog = [
         "category": "Unisex",
         "price": 24.32,
         "image": "Suncloud_Fortune_24-32.JPG",
-        "_id": "pn24"
+        "_id": "pn30"
     }
 ]
-
