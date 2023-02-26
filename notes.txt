@@ -4,10 +4,13 @@
 # windows:
 venv\Scripts\activate
 
-then 'deactivate' to stop
+or 'deactivate' to stop
 
 # mac / linux:
 source venv/bin/activate
+
+# From Github - To set a new repo as recipient 
+git remote set-url origin {your-new-url}
 
 ### install module/package
 py -m pip install <package>
@@ -31,12 +34,6 @@ git push -u origin master (or main)
 
 
 ### NEXT TIMES
-
 git add .
 git commit -m "ANY MESSAGE"
 git push
-
-
-# From Github - To set a new repo as recipient 
-
-git remote set-url origin {your-new-url}
