@@ -4,8 +4,11 @@ from config import db
 from bson import ObjectId
 
 import json
+from flask_cors import CORS
 
-app = Flask(__name__) # creating a new instance of the class 'Flask'
+app = Flask(__name__) # creating a new instance of the class 'Flask', similar to a new Task in JS
+CORS(app) # WARNING: This disables CORS policy
+
 
 @app.get("/")
 def home():
